@@ -1,0 +1,22 @@
+{
+  "name": "webpack-to-vite-converter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts",
+    "cli": "ts-node bin/cli.ts",
+    "test": "echo \"No tests yet\""
+  },
+  "devDependencies": {
+    "@types/commander": "^2.12.5",
+    "@types/node": "^22.8.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "acorn": "^8.14.0",
+    "commander": "^12.1.0"
+  }
+}
